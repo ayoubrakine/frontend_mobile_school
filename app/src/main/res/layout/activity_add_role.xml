@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:padding="10dp"
+android:layout_height="match_parent"
+tools:context=".AddRole"
+    android:gravity="center_vertical">
+
+
+<TextView
+    android:id="@+id/textView3"
+    style="@style/text"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Role name" />
+
+    <EditText
+        android:id="@+id/role"
+
+        style="@style/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+
+
+<Button
+    android:id="@+id/bnAdd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_marginTop="30dp"
+    android:text="ADD NEW ROLE"
+    android:layout_gravity="center"/>
+
+</LinearLayout>

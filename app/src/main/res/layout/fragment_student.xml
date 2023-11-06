@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Fragment_student">
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD STUDENT"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#FF0000"
+        />
+    <Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SHOW STUDENTS"
+        android:textColorHighlight="#5DB0F3"
+        android:textColorLink="#5DB0F3"
+        />
+
+    <Button
+        android:id="@+id/byfiliere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SHOW STUDENTS BY FILIERE"
+        android:textColorHighlight="#5DB0F3"
+        android:textColorLink="#5DB0F3"
+        />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text">
+        <item name="android:textSize">17dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">#001133</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="input">
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+
+    <style name="texto">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">#001133</item>
+        <item name="android:textStyle">bold</item>
+
+
+    </style>
+
+    <style name="textedit">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">#009C06</item>
+
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Couleur primary -->
+        <item name="colorPrimary">@color/lavender</item>
+
+        <!-- Couleur pour la barre de statut -->
+        <item name="android:statusBarColor">@color/lavender</item>
+
+        <!-- Couleur secondary -->
+        <item name="colorAccent">@color/lavender</item>
+    </style>
+
+</resources>
